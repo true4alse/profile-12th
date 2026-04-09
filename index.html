@@ -401,5 +401,40 @@
         </div>
     </div>
 
+    <div class="banner">
+        <div class="common-frame">
+            <h2>Banner Designs</h2>
+            <p class="pf1">{  Point of Focus  }</p>
+            <p>hero섹션에 들어가는 배너디자인을 1920x700 사이즈로 제작해보았습니다.</p>
+            <div class="swiper banner-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/banner1.jpg" alt="크리스마스 배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/banner2.jpg" alt="나이키 세일 배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/banner3.jpg" alt="배너">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/banner4.jpg" alt="배너">
+                    </div>
+                </div>
+            </div>
+            <script>
+                const bannerSlider = new Swiper(".banner-slider",{
+                    autoplay:{
+                        delay:3000
+                    },
+                    speed:1000,
+                    loop:true
+                })
+            </script>
+
+
+        </div>
+    </div>
+
 </body>
 </html>
