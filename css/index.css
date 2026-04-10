@@ -269,6 +269,12 @@ p{
     width:500px;
     flex-shrink: 0;
 }
+
+.popup-img-slider img{
+    width:100%;
+    object-fit: cover;
+}
+
 .poster-txt{
     flex:1;
     padding-top: 5rem;
@@ -693,6 +699,19 @@ p{
         font-size:1.3rem;
         margin-bottom: 3rem;
     }
+    .detail-title {
+        font-size: calc(100vw/6);
+        line-height: 100%;
+    }
+
+    .detail h2{
+        font-size:2rem;
+    }
+    .detail h2+p{
+        font-size:1.3rem;
+    }
+    
+
 
 }
 
