@@ -301,6 +301,20 @@ p{
     margin-bottom: 3rem;
 }
 
+.detail h2{
+    font-size:5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.detail h2+p{
+    font-size:3rem;
+    margin-bottom: 3rem;
+}
+.detail h2+p+p{
+    margin-bottom: 3rem;
+}
+
+
 
 @media (max-width:1800px){
     .popup {
@@ -540,6 +554,9 @@ p{
     }
 
 }
+
+
+
 
 @media (max-width:500px){
     .popup h2+p+p{
